@@ -1,1 +1,2 @@
 # JS
+All the code here is the result of the excercises/projects from the course [JavaScript: Understanding the Weird Parts](https://www.udemy.com/understand-javascript/learn/lecture/2237446?start=270#overview) in udemy.
