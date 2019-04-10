@@ -1,2 +1,2 @@
-# JS
-All the code here is the result of the excercises/projects from the course [JavaScript: Understanding the Weird Parts](https://www.udemy.com/understand-javascript/learn/lecture/2237446?start=270#overview) in udemy.
+# JavaScript Under the Hood
+All the code presented here is the result of the excercises/projects from the course [JavaScript: Understanding the Weird Parts](https://www.udemy.com/understand-javascript/learn/lecture/2237446?start=270#overview) in udemy and the knowledge acquired reading the book series You Don't Know JS by Kyle Simpson
