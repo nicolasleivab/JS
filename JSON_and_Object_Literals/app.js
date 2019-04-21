@@ -7,7 +7,7 @@ var objectLiteral = {
 
 console.log(objectLiteral);
 
-'{"firstName": "Nico" "isAProgrammer": true}'; //JSON format
+'{"firstName": "Nico" "isAProgrammer": true}'; //JSON format, property names must be wrapped ""
 
 var objectValue = JSON.stringify(objectLiteral); //Object to JSON
 
@@ -22,4 +22,9 @@ Literal syntax
 anything that is JSON valid is also valid
 Object literal syntax but not the other way
 around
+*/
+/*
+JSON != Object Literal,
+JSON is more strict, easy transition when pushing data from a client to the
+server or in the case of Node.js when you are running JS on the server
 */
