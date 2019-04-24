@@ -27,8 +27,9 @@ fs[2]();
 /*
 A quick fix for this is using let (ES6) instead of var in the for loop to store
 the different values.
-The old fix was to use an IIFE in order to create 3 different execution contexts to
-store the different values that are created on the fly, like this:
+In ES5 you can implement an IIFE in order to create 3 different execution contexts to
+store the different values that are created on the fly, then the function will
+reach out each of this values like this:
 
 		arr.push(
 			(function(j) {
@@ -36,6 +37,8 @@ store the different values that are created on the fly, like this:
 					console.log(j);
 				}
 			}(i))
+
+This is possible because of closures in JS
 */
 
 
