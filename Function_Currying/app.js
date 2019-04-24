@@ -14,6 +14,11 @@ preset parameters and reuse the function (function currying)
 This is especially useful with math functions.
 */ 
 
+/***You can't bind() arrow functions (you can't change 'this').
+Arrow functions will always be called with the context in which 
+they were defined.
+***/
+
 /* Function Borrowing*/
 
 var myObject = {
