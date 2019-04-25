@@ -13,7 +13,9 @@ var myObject2 = {
 	secondValue: 11
 }
 
-// Never use __proto__ like this, this is for demo purposes only.
+/* Never use __proto__ like this, this is for demo purposes only.
+You can also check lecture Function Constructors to find a better way to do this. */
+
 myObject2.__proto__ = myObject1;
 console.log(myObject2.productOfValues());
 
@@ -27,9 +29,20 @@ var myObject3 = {
 }
 
 myObject3.__proto__ = myObject1;
-console.log(myObject3.productOfValues()); //Guess the output: a) undefined or b) 0,
+console.log(myObject3.productOfValues()); //Guess the output: a) undefined, b) NaN or c) 0,
                                           /* Think of the prototype chain*/
 
+
+/* Pure prototypal inheritance*/
+
+var myObject4 = object.create(myObject1)
+myObject4.firstValue = 101;
+myObject4.secondValue = 110;
+console.log(myObject4);
+
+/* Simply make objects and create a new objects from them pointing
+to other objects as prototype and then override or hide properties or
+methods */
 
 
 
