@@ -13,5 +13,6 @@ Revise By Value and By Reference lecture:
 https://github.com/nicolasleivab/JavaScript-Under-the-Hood/tree/master/By_Value_vs_By_Reference
 */
 
-
+/* Note: ES6 hoisting works differently, you need to declare let 
+and const before using them */
 
