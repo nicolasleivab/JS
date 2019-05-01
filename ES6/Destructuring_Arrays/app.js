@@ -27,4 +27,7 @@ let [j, , k] = [2, 11, 33];
 
 console.log({j, k}); //What will this return? what did we do differently?
 
-
+/*
+We can't use that syntax in destructuring objects (j, , k), because
+we are referencing them by name, not by position.
+*/
