@@ -10,9 +10,29 @@ do the trick.
 */
 
 import {keyValue, test} from './external.js';
- 
+
+/*We can set an alias for the imported variable and then call it by the alias
+import {keyValue as key, test} from './external.js';
+console.log(key);
+*/
+
 console.log(keyValue);
 test();
 console.log(keyValue);
 
+//Import Default
 
+import ab from './external.js';
+
+console.log(ab);
+
+/*
+You can change the name of the imported variable since it has been defined
+as default in the external.js. Try changing the name of the variable
+(both in the import and console log) and see what happens.
+*/
+
+//Import everything from external.js as an object
+
+import * as imported from './external.js';
+console.log(imported);

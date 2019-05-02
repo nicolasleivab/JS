@@ -6,3 +6,12 @@ function test() {
 }
    
 export {keyValue, test}; //Export the variable and the function
+
+// Default export
+
+let ab = 'Some text';
+export default ab; 
+
+/*
+Only one export default can be defined
+*/
