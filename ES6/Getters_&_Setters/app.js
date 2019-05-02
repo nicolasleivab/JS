@@ -2,7 +2,7 @@
 
 class Person {
 	constructor(name) {
-		this._name = name;  //You can insert an underscore to "block" accessibility from the outside
+		this._name = name;  //You can insert an underscore to "control" accessibility from the outside
                             //encapsulation* https://stackoverflow.com/questions/4484424/underscore-prefix-for-property-and-method-names-in-javascript
 	}
 
