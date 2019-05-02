@@ -26,3 +26,9 @@ console.log(Math.max(...sample2));
 /*
 Spread is use to split up an array in to a list of values (the opposite)
 */
+
+/*
+Some useful resources:
+https://codeburst.io/parameters-arguments-in-javascript-eb1d8bd0ef04
+https://stackoverflow.com/questions/33898512/spread-syntax-vs-rest-parameter-in-es2015-es6
+*/
