@@ -58,3 +58,9 @@ nico.greet2();
 Check the prototype of the new object created and ask yourself
 What 'extends' method really does.
 */
+
+/*
+Remember that in order to access a class property you need to create
+a new object. Otherwise you can use the keyword 'static' just before
+a method or function in order to access it directly.
+*/
