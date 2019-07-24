@@ -1,4 +1,5 @@
 # JavaScript Under the Hood
+<<<<<<< HEAD
 This repository contains simple yet meaningful excercises to get a better understanding of how JavaScript works as well as some
 basic programming principles. The code presented here is for educational purposes only.
 
@@ -69,3 +70,8 @@ Courses:
 [JavaScript: Understanding the Weird Parts](https://www.udemy.com/understand-javascript/)
 [Accelerated ES6 JavaScript Training](https://www.udemy.com/es6-bootcamp-next-generation-javascript/)
 [freeCodeCamp](https://www.freecodecamp.org/) Javascript Algorithms And Data Structures Certification
+||||||| merged common ancestors
+All the code presented here is the result of the excercises and lectures from the courses [JavaScript: Understanding the Weird Parts](https://www.udemy.com/understand-javascript/) and [Accelerated ES6 JavaScript Training](https://www.udemy.com/es6-bootcamp-next-generation-javascript/) in udemy, the projects that are part of the [freeCodeCamp](https://www.freecodecamp.org/) Javascript Algorithms And Data Structures Certification and the knowledge acquired reading some chapters of the book series You Don't Know JS by Kyle Simpson.
+=======
+All the code presented here is the result of the excercises and lectures from the courses [JavaScript: Understanding the Weird Parts](https://www.udemy.com/understand-javascript/) and [Accelerated ES6 JavaScript Training](https://www.udemy.com/es6-bootcamp-next-generation-javascript/) in udemy, the projects that are part of the [freeCodeCamp](https://www.freecodecamp.org/) Javascript Algorithms And Data Structures Certification and the knowledge acquired reading [Eloquent JavaScript](https://eloquentjavascript.net) by Marjin Haverbeke.
+>>>>>>> e3d1669adb572617fd39c0be11c8dbe73096a031
