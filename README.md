@@ -7,13 +7,13 @@ basic programming principles. The code presented here is for educational purpose
 ## Contents
 
 ### 1. Program Structure
-      1.1. [Values and Coercion](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/Default_Values/app.js)
-      1.2. Operators
-      1.3. Expressions and Statements
-      1.4. Bindings
-      1.5. Functions and Return Values
-      1.6. Control Flow
-      1.7. Conditional Execution
+      - [Values and Coercion](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/Default_Values/app.js)
+      - Operators
+      - Expressions and Statements
+      - Bindings
+      - Functions and Return Values
+      - Control Flow
+      - Conditional Execution
 ### 2. Functions
       2.1. The Scope Chain
       2.2. Functions as Values
