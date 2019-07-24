@@ -7,7 +7,7 @@ basic programming principles. The code presented here is for educational purpose
 ## Contents
 
 ### 1. Program Structure
-      1.1. Values and Coercion
+      #### 1.1. [Values and Coercion](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/Default_Values/app.js)
       1.2. Operators
       1.3. Expressions and Statements
       1.4. Bindings
@@ -21,10 +21,10 @@ basic programming principles. The code presented here is for educational purpose
       2.4. Closures
       2.5. Recursion
 ### 3. Data Structures
-      3.1. Properties
-      3.2. Methods
-      3.3. Mutability
-      3.4. Destructuring
+      #### 3.1. Properties
+      #### 3.2. Methods
+      #### 3.3. Mutability
+      #### 3.4. Destructuring
 ### 4. High Order Functions
       4.1. Filtering Arrays
       4.2. Map()
@@ -68,9 +68,9 @@ basic programming principles. The code presented here is for educational purpose
 
 ### References
 
-[Marijn Haverbeke (2019) Eloquent Javascript, Third Edition](https://eloquentjavascript.net/)
-Courses:
-[JavaScript: Understanding the Weird Parts](https://www.udemy.com/understand-javascript/)
-[Accelerated ES6 JavaScript Training](https://www.udemy.com/es6-bootcamp-next-generation-javascript/)
-[freeCodeCamp](https://www.freecodecamp.org/) Javascript Algorithms And Data Structures Certification
+-[Marijn Haverbeke (2019) Eloquent Javascript, Third Edition](https://eloquentjavascript.net/)
+#### Courses:
+-[JavaScript: Understanding the Weird Parts](https://www.udemy.com/understand-javascript/)
+-[Accelerated ES6 JavaScript Training](https://www.udemy.com/es6-bootcamp-next-generation-javascript/)
+-[freeCodeCamp](https://www.freecodecamp.org/) Javascript Algorithms And Data Structures Certification
 
