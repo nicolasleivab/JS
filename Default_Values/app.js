@@ -17,7 +17,7 @@ function greet(name){
 }
 
 /* Now imagine default values causing conflicts between 
-different libraries that you are loading in your code
+different libraries that you are loading in your app
 
 check: https://blog.acolyer.org/2018/06/20/conflictjs-finding-and-understanding-conflicts-between-javascript-libraries/
 
