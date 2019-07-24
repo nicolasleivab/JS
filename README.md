@@ -7,8 +7,8 @@ basic programming principles. The code presented here is for educational purpose
 ## Contents
 
 ### 1. Program Structure
-      - [Values and Coercion](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/Default_Values/app.js)
-      - Operators
+   1.1. [Values and Coercion](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/Default_Values/app.js)
+   - Operators
       - Expressions and Statements
       - Bindings
       - Functions and Return Values
