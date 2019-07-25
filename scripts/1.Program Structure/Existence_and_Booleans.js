@@ -1,3 +1,19 @@
+/* Empty Values */
+
+/*
+There are two special values, null and undefined, that are used to denote absence of a 'meaningful value'.
+The difference between these two is minimum in most cases and is the consequence of a JavaScript design accident.
+*/
+
+
+typeof(null);      
+typeof(undefined); //Should these two values share the same type?
+
+typeof(null)===Object; //This is considered a JS bug, typeof(null) suggests that null is and object when in reality is a primitive value
+
+//For more information about this go to: https://stackoverflow.com/questions/18808226/why-is-typeof-null-object
+
+
 /* Existence and Booleans*/
 //Using coercion to check the existence of a variable
 

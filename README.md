@@ -9,7 +9,7 @@ basic programming principles. The code presented here is for educational purpose
 #### 1. Program Structure
 
 11. [Values and Coercion](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/scripts/1.Program%20Structure/Values_and_Coercion.js)
-2. Boolean and Empty Values
+2. [Boolean and Empty Values](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/scripts/1.Program%20Structure/Existence_and_Booleans.js)
 3. Operators
 4. Expressions and Statements
 5. Bindings
