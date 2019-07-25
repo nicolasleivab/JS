@@ -10,12 +10,11 @@ basic programming principles. The code presented here is for educational purpose
 
 11. [Values and Coercion](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/scripts/1.Program%20Structure/Values_and_Coercion.js)
 2. [Boolean and Empty Values](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/scripts/1.Program%20Structure/Existence_and_Booleans.js)
-3. Operators
-4. Expressions and Statements
-5. Bindings
-6. Functions and Return Values
-7. Control Flow
-8. Conditional Execution
+3. [Operators](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/scripts/1.Program%20Structure/Operators.js)
+4. [Bindings](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/scripts/1.Program%20Structure/Bindings.js)
+5. Functions and Return Values
+6. Control Flow
+7. Conditional Execution
    
 #### 2. Functions
    21. [The Scope Chain](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/Scope_Chain/app.js)
