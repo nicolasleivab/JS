@@ -27,6 +27,7 @@ let nineValue = 3*3; //with this statement we create a binding that
                      //holds the value of the expression 3*3 (9)
 nineValue * 3        // We can now use the name of the binding as an expression within another expression
 function multiplybyNine(x){return x * nineValue};  // or a statement.
+console.log(multiplybyNine(9));
 
 // Always remember that bindings only 'grasp' values, which means it can be modified
 ninveValue = 'Nine';
@@ -50,6 +51,16 @@ In addition, creating bindings with const enables that the grasped values can't 
 
 const constValue = 1;
 constValue = 3;
+
+/* Environment and functions */
+
+/*
+The collection of bindings are values at a given time is called 'environment'.
+Values that are provided in the default environment can have the type of function,
+which is a piece of program /statement wrapped in a value which you can 'invoke', 'call'
+or 'apply'.
+Like in the function example above, values can be passed to the function when invoking (called arguments)
+*/
 
 
 
