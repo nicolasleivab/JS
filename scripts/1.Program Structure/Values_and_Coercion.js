@@ -4,6 +4,8 @@
 -Primitives: Number, string, boolean (true or false), null (empty value), undefined (empty value)
 -Complex: Arrays, objects and functions
 
+Other special values are Infinity, -Infinity and NaN (not a number)
+
 Primitives can be accessed by their value while complex types can be accessed by reference (explained in the Objects chapter)
 */
 /* Corecion */
