@@ -1,3 +1,8 @@
+/* Function hoisting */
+
+
+
+
 /* Function Statements and Functions Expressions*/
 
 statement(); //What will happen if we call it before?

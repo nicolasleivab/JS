@@ -16,10 +16,11 @@ basic programming principles. The code presented here is for educational purpose
    
 #### 2. Functions
    21. [The Scope Chain](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/2.Functions/The_Scope_Chain.js)
-   2. Functions as Values
-   3. The Call Stack
-   4. [Closures](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/2.Functions/Closures.js)
-   5. Recursion
+   2. [Functions as Values](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/2.Functions/Functions_as_Values.js)
+   3. [Function Hoisting](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/2.Functions/Function_Hoisting.js)
+   4. The Call Stack
+   5. [Closures](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/2.Functions/Closures.js)
+   6. Recursion
 #### 3. Data Structures
    31. Properties
    2. Methods
