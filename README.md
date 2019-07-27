@@ -17,10 +17,12 @@ basic programming principles. The code presented here is for educational purpose
 #### 2. Functions
    21. [The Scope Chain](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/2.Functions/The_Scope_Chain.js)
    2. [Functions as Values](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/2.Functions/Functions_as_Values.js)
-   3. [Function Hoisting](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/2.Functions/Function_Hoisting.js)
-   4. The Call Stack
-   5. [Closures](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/2.Functions/Closures.js)
-   6. Recursion
+   3. [Arguments](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/2.Functions/Arguments.js)
+   4. [Function Hoisting](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/2.Functions/Function_Hoisting.js)
+   5. [The Call Stack](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/2.Functions/The_Call_Stack.js)
+   6. [Closures](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/2.Functions/Closures.js)
+   7. [Recursion](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/2.Functions/Recursion.js)
+   8. [IIFE](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/2.Functions/IIFEs.js)
 #### 3. Data Structures
    31. Properties
    2. Methods
