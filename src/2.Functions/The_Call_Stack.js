@@ -9,15 +9,15 @@ Everytime a function is called, the current context is stored on top of this sta
 
 function first(){
     console.log("I'm the first to be called")
-        second();
+    second();
 }
 
 function second(){
     console.log("I'm the second to be called")
-        function third (){
+    function third (){
         console.log("I'm the last one!")
-        }
-        third();
+    }
+    third();
 }
 
 first();
