@@ -27,9 +27,9 @@ basic programming principles. The code presented here is for educational purpose
    31. Arrays and Objects
    2. Methods
    3. Mutability
-   4. [Array Loops](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/3.Data Structures/Array_Loops.js)
-   5. [Rest Parameters](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/3.Data Structures/Rest_&_Spread_Operator.js)
-   6. [Destructuring](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/3.Data Structures/Destructuring.js)
+   4. [Array Loops](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/3..Data%20Structures/Array_Loops.js)
+   5. [Rest Parameters](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/3..Data%20Structures/Rest_&_Spread_Operator.js)
+   6. [Destructuring](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/3..Data%20Structures/Destructuring.js)
 #### 4. High Order Functions
    41. Filtering Arrays
    2. Map()
