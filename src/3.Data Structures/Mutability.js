@@ -1,3 +1,9 @@
+/* Arrays mutability */
+
+
+/* Objects mutability */
+
+
 /* const*/
 
 const ARR = [1, 3, 7];

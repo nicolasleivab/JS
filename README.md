@@ -24,16 +24,18 @@ basic programming principles. The code presented here is for educational purpose
    7. [Recursion](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/2.Functions/Recursion.js)
    8. [IIFE](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/2.Functions/IIFEs.js)
 #### 3. Data Structures
-   31. Properties
+   31. Arrays and Objects
    2. Methods
    3. Mutability
-   4. Destructuring
+   4. [Array Loops](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/3.Data Structures/Array_Loops.js)
+   5. [Rest Parameters](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/3.Data Structures/Rest_&_Spread_Operator.js)
+   6. [Destructuring](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/3.Data Structures/Destructuring.js)
 #### 4. High Order Functions
    41. Filtering Arrays
    2. Map()
    3. Reduce()
    4. Recognizing Text
-#### 5. Objects
+#### 5. Objects in Depth
    51. Methods
    2. Prototypes
    3. Inheritance
