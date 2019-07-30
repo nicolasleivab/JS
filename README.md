@@ -24,10 +24,10 @@ basic programming principles. The code presented here is for educational purpose
    7. [Recursion](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/2.Functions/Recursion.js)
    8. [IIFE](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/2.Functions/IIFEs.js)
 #### 3. Data Structures
-   31. Arrays and Objects
-   2. Methods
-   3. Mutability
-   4. [Array Loops](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/3..Data%20Structures/Array_Loops.js)
+   31. [Arrays and Objects](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/3..Data%20Structures/Arrays_and_Objects.js)
+   2. [Mutability](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/3..Data%20Structures/Mutability.js)
+   3. [Array Loops](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/3..Data%20Structures/Array_Loops.js)
+   4. [String Properties](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/3..Data%20Structures/Strings_Properties.js)
    5. [Rest Parameters](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/3..Data%20Structures/Rest_&_Spread_Operator.js)
    6. [Destructuring](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/3..Data%20Structures/Destructuring.js)
 #### 4. High Order Functions
