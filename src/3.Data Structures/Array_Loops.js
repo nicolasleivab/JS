@@ -60,9 +60,9 @@ products: ['product 3', 'product 4', 'product 5']
 function tableFor(product, targetRegion, costumers){
 	let table = [0, 0, 0, 0];  // Initialize our table
 	for (let i = 0; i < costumers.length; i++){
-		let entry = costumers[i], index = 0;
-		if (entry.products.includes(product)) index += 1;  // if product = true then move 1 value to the right, else stay
-		if (entry.region == targetRegion) index += 2;     // if targetRegion = true then move 2 value to the right, else stay
+		let properties = costumers[i], index = 0;
+		if (properties.products.includes(product)) index += 1;  // if product = true then move 1 value to the right, else stay
+		if (properties.region == targetRegion) index += 2;     // if targetRegion = true then move 2 value to the right, else stay
 		table[index] += 1;                                // +1 to the table index of the current loop 
 	}
 	return table;
@@ -80,14 +80,28 @@ https://www.statisticshowto.datasciencecentral.com/phi-coefficient-mean-square-c
 
 /* The for-of Loop*/
 
-let sample = [3, 12, 34, 77];
+/*
+There is also a shorter syntax for looping through arrays
+*/
 
-for (let listOfValues of sample){
-	console.log(listOfValues);
+
+for (let costumersContact of costumers){   // Get ID and contact of each costumer
+	console.log(`${costumersContact.ID +': '+ costumersContact.contact}`);
 }
 
-
-
 /*
-Shorter syntax for looping through arrays
+We can use this method in the previous function:
+
+function tableFor(product, targetRegion, costumers){
+	let table = [0, 0, 0, 0];
+	for (let costumersProp of costumers){
+        let index = 0;
+		if (costumersProp.products.includes(product)) index += 1;
+		if (costumersProp.region == targetRegion) index += 2;
+		table[index] += 1;
+	}
+	return table;
+}
+
 */
+
