@@ -5,12 +5,12 @@ In JavaScript, an array is a data type for sorting sequences of values.
 It's written as a list of values between square brackets and each value is separated by commas
 */
 
-let myArray = [1, 2, 5]; // Array of numeric values 1, 2 and 5
+let myArray = [1, 2, 5, 9]; // Array of numeric values 1, 2, 5 and 9
 
 console.log(myArray[0]); // The rray index is zero-based
 console.log(myArray[1]);
 console.log(myArray[2]);
-console.log(myArray[3]); // What happens here?
+console.log(myArray[4]); // What happens here?
 
 
 
@@ -30,6 +30,12 @@ console.log(myArray);
 myArray.shift();          // Removes the first value of the array
 console.log(myArray);
 
+console.log(myArray.indexOf(2)); // Searches for an index from the beggining
+
+console.log(myArray.lastIndexOf(1)); // Searches for and index from the end
+
+console.log(myArray.slice(1)); // Returns an array with the indicated elements (0 and 1 elements = [1, 2])
+console.log(myArray.slice(1, 3)); // the start index is inclusive, the end index is exclusive ([2, 5])
 
 
 /* Objects */
