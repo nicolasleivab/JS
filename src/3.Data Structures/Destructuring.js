@@ -10,7 +10,7 @@ console.log(c);
 let [d = 'Default', e, f, g, h, i = 'Default'] = sample;  //You can set default values
 
 console.log({d, i});   //What do you think this will print?
-//console.log(sample); //You can check if the array has been changed
+//console.log(sample); //Feel free to check if the array has been changed
 
 
 //Swapping Values
