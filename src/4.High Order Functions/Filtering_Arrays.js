@@ -15,7 +15,7 @@ console.log(copiedArr);                // for looping with a high order func
 
 /* Filtering Arrays */
 
-pokemons = [{name: 'Pikachu', type: 'electric'}, {name: 'Charmander', type: 'fire'}, {name: 'Squirtle', type: 'water'},
+let pokemons = [{name: 'Pikachu', type: 'electric'}, {name: 'Charmander', type: 'fire'}, {name: 'Squirtle', type: 'water'},
 {name: 'Bulbasaur', type: 'grass'}, {name: 'Magikarp', type: 'water'}, {name: 'Psyduck', type: 'water'},
 {name: 'Rapidash', type: 'fire'}, {name: 'Oddish', type: 'grass'}, {name: 'Electabuzz', type: 'electric'}];
 
