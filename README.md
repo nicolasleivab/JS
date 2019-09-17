@@ -31,10 +31,10 @@ basic programming principles. The code presented here is for educational purpose
    5. [Rest Parameters](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/3.Data%20Structures/Rest_&_Spread_Operator.js)
    6. [Destructuring](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/3.Data%20Structures/Destructuring.js)
 #### 4. High Order Functions
-   41. Filtering Arrays
-   2. Map()
-   3. Reduce()
-   4. Composed Operations
+   41. [Filtering Arrays](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/4.High%20Order%20Functions/Filtering_Arrays.js)
+   2. [Map()](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/4.High%20Order%20Functions/Map.js)
+   3. [Reduce()](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/4.High%20Order%20Functions/Reduce.js)
+   4. [Composed Operations](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/4.High%20Order%20Functions/Composed_Operations.js)
 #### 5. Objects in Depth
    51. Methods
    2. Prototypes
