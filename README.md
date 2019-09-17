@@ -34,7 +34,7 @@ basic programming principles. The code presented here is for educational purpose
    41. Filtering Arrays
    2. Map()
    3. Reduce()
-   4. Recognizing Text
+   4. Composed Operations
 #### 5. Objects in Depth
    51. Methods
    2. Prototypes
