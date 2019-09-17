@@ -15,4 +15,30 @@ console.log(copiedArr);                // for looping with a high order func
 
 /* Filtering Arrays */
 
+pokemons = [{name: 'Pikachu', type: 'electric'}, {name: 'Charmander', type: 'fire'}, {name: 'Squirtle', type: 'water'},
+{name: 'Bulbasaur', type: 'grass'}, {name: 'Magikarp', type: 'water'}, {name: 'Psyduck', type: 'water'},
+{name: 'Rapidash', type: 'fire'}, {name: 'Oddish', type: 'grass'}, {name: 'Electabuzz', type: 'electric'}];
+
+let waterPokemons = pokemons.filter(pokemon => pokemon.type == 'water');
+console.log(waterPokemons);
+
+/*
+filter() is a standard built in array method, like forEach, that creates a new array with elements that fall
+under a given criteria or that pass a certain 'test' from an existing array
+*/
+
+
+//We could also write this function like this:
+
+function filterArray(array, condition){
+    let filteredValues = [];
+    for (let element of array){
+        if (condition(element)){
+            filteredValues.push(element);
+        }
+    }
+    return filteredValues;
+}
+
+console.log(filterArray(pokemons, pokemon => pokemon.type == 'water'))
 
