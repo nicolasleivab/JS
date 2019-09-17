@@ -42,7 +42,7 @@ basic programming principles. The code presented here is for educational purpose
    4. Classes
    5. Maps
    6. Polymorphism
-   7. Getters & Setters
+   7. [Getters & Setters](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/5.Objects/Getters_%26_Setters.js)
 #### 6. Bugs and Errors
    61. Strict Mode
    2. Testing
