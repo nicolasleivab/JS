@@ -40,7 +40,7 @@ basic programming principles. The code presented here is for educational purpose
    2. [Methods](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/5.Objects/Methods.js)
    3. [Prototypes and Inheritance](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/5.Objects/Prototypes.js)
    4. [Classes](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/5.Objects/Classes.js)
-   5 [Function Constructors](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/5.Objects/Classes.js)
+   5. [Function Constructors](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/5.Objects/Classes.js)
    6. [Arrow Functions and bind()](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/5.Objects/Arrow_Functions_and_bind.js)
    7. Maps
    8. Polymorphism
