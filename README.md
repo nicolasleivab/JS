@@ -38,14 +38,13 @@ basic programming principles. The code presented here is for educational purpose
 #### 5. Objects in Depth
    51. [By Value vs By Reference](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/5.Objects/ByValue_ByReference.js)
    2. [Methods](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/5.Objects/Methods.js)
-   3. [Prototypes](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/5.Objects/Prototypes.js)
-   4. [Inheritance](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/5.Objects/Inheritance.js)
-   5. [Classes](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/5.Objects/Classes.js)
-   6. [Function Constructors](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/5.Objects/Classes.js)
-   7. [Arrow Functions and bind()]((https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/5.Objects/Arrow_Functions_and_bind.js))
-   8. Maps
-   9. Polymorphism
-   10. [Getters & Setters](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/5.Objects/Getters_%26_Setters.js)
+   3. [Prototypes and Inheritance](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/5.Objects/Prototypes.js)
+   4. [Classes](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/5.Objects/Classes.js)
+   5 [Function Constructors](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/5.Objects/Classes.js)
+   6. [Arrow Functions and bind()](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/5.Objects/Arrow_Functions_and_bind.js)
+   7. Maps
+   8. Polymorphism
+   9. [Getters & Setters](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/5.Objects/Getters_%26_Setters.js)
 #### 6. Bugs and Errors
    61. Strict Mode
    2. Testing
