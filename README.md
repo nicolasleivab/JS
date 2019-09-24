@@ -1,7 +1,6 @@
 # JavaScript Under the Hood
 
-This repository contains simple yet meaningful excercises to get a better understanding of how JavaScript works as well as some
-basic programming principles. The code presented here is for educational purposes only.
+This repository contains simple yet meaningful excercises to get a better understanding of how JavaScript works as well as some programming principles. The excersices are contained in several scripts that can be run using an online tool of preference or the web console. The code presented here is for educational purposes only. 
 <br><br>
 
 ### Table of Contents
