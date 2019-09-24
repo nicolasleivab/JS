@@ -1,7 +1,8 @@
 /* Classes & Prototypes*/
 
 /*
-Similar to constructor syntax of ES5 with some differences
+Similar to constructor syntax of ES5 (Function Constructors script) with some differences.
+The classs keyword allows us to define a constructor and methods all in a single place.
 */
 
 class Student {
