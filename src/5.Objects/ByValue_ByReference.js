@@ -1,7 +1,7 @@
 /* By Value vs By Reference*/
 
-var primitiveValue1 = 0;
-var primitiveValue2;
+let primitiveValue1 = 0;
+let primitiveValue2;
 
 primitiveValue2 = primitiveValue1; //Value copied (0) 
 primitiveValue1 = 1;  //Will the value of primitiveValue 2 be affected?
@@ -13,8 +13,8 @@ For primitive values, everytime we assign a value to a
 variable a new space in memory is set (new address).
 */
 
-var object1 = {value : 0};
-var object2;
+let object1 = {value : 0};
+let object2;
 
 object2 = object1;
 object1.value = 1;

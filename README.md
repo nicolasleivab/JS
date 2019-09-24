@@ -38,12 +38,11 @@ basic programming principles. The code presented here is for educational purpose
 #### 5. Objects in Depth
    51. [By Value vs By Reference](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/5.Objects/ByValue_ByReference.js)
    2. [Methods](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/5.Objects/Methods.js)
-   3. [Prototypes and Inheritance](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/5.Objects/Prototypes_and_Inheritance.js)
-   4. [Classes and Inheritance](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/5.Objects/Classes_and_Inheritance.js)
-   5. [Arrow Functions and bind()](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/5.Objects/Arrow_Functions_and_bind.js)
-   6. Maps
-   7. Polymorphism
-   8. [Getters & Setters](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/5.Objects/Getters_%26_Setters.js)
+   3. [Arrow Functions and this](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/5.Objects/Arrow_Functions_and_this.html)
+   4. [Prototypes and Inheritance](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/5.Objects/Prototypes_and_Inheritance.js)
+   5. [Classes and Inheritance](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/5.Objects/Classes_and_Inheritance.js)
+   6. [Polymorphism](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/5.Objects/Polymorphism.js)
+   7. [Getters & Setters](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/5.Objects/Getters_%26_Setters.js)
 #### 6. Bugs and Errors
    61. Strict Mode
    2. Testing

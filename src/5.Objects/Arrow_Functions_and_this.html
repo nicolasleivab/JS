@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+
+<body>
+    <h3>Arrow Functions Excercise</h3>
+    <div>
+        <button id='fn2'>Function</button>
+        <button id='fn3'>Arrow Function</button>
+    </div>
+    <script>
+        /* (Fat) Arrow Functions */
+
+        let fn = (a, b) => a * b;
+
+        console.log(fn(2, 4));
+
+        /*
+        same as:
+        function fn(a, b){
+        	return a * b;
+        }
+        */
+
+        setTimeout(() => console.log('Hi'), 1000);
+
+        /*
+        same as:
+        	setTimeout(function(){
+        	console.log('Hi')
+        	}, 1000);
+
+        */
+
+        let button2 = document.querySelector('#fn2');
+        let button3 = document.querySelector('#fn3');
+
+        function fn2() {
+            console.log(this);
+        }
+
+        let fn3 = () => console.log(this);
+
+        button2.addEventListener('click', fn2); //Try fn2 and then fn3 to see the differences
+        button3.addEventListener('click', fn3);
+
+        /* Why fn2 refers to the html button element and fn3 to the window object?
+        The fat arrow function keeps its context, you won't need call(), apply(), bind()
+        or others to find a workaround to keep 'this' to the right execution context */
+    </script>
+</body>
+
+</html>

@@ -1,6 +1,6 @@
 /* JSON and Object Literals*/
 
-var objectLiteral = {
+let objectLiteral = {
 	firstName : "Nico",
 	isAProgrammer: true
 }
@@ -9,9 +9,9 @@ console.log(objectLiteral);
 
 '{"firstName": "Nico" "isAProgrammer": true}'; //JSON format, property names must be wrapped ""
 
-var objectValue = JSON.stringify(objectLiteral); //Object to JSON
+let objectValue = JSON.stringify(objectLiteral); //Object to JSON
 
-var jsonValue = JSON.parse('{"firstName": "Nico", "isAProgrammer":true}'); //String(JSON) to object
+let jsonValue = JSON.parse('{"firstName": "Nico", "isAProgrammer":true}'); //String(JSON) to object
 
 console.log(objectValue);
 console.log(jsonValue);

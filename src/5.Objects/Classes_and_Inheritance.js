@@ -84,7 +84,7 @@ class ConvertableArray extends Array {
     }
 }
  
-const numberArray = new ConvertableArray(1, 2, 3);
+let numberArray = new ConvertableArray(1, 2, 3);
 console.log(numberArray.convert());
 
 /*

@@ -1,6 +1,6 @@
 /* Protoypal Inheritance*/
 
-var myObject1 = {
+let myObject1 = {
 	firstValue: 0,
 	secondValue: 0,
 	productOfValues: function(){
@@ -8,7 +8,7 @@ var myObject1 = {
 	}
 }
 
-var myObject2 = {
+let myObject2 = {
 	firstValue: 1,
 	secondValue: 11
 }
@@ -24,7 +24,7 @@ the execution context when it creates the 'this' variable, knows what object
 originally called it. 
 */
 
-var myObject3 = {
+let myObject3 = {
 	firstValue: 111,
 }
 
@@ -35,7 +35,7 @@ console.log(myObject3.productOfValues()); //Guess the output: a) undefined, b) N
 
 /* Pure prototypal inheritance*/
 
-var myObject4 = Object.create(myObject1) 
+let myObject4 = Object.create(myObject1) 
 myObject4.firstValue = 101;
 myObject4.secondValue = 110;
 console.log(myObject4);
@@ -61,11 +61,11 @@ this.degree = degree;
 this.address = address;
 }
 
-var student1 = new Student(11111111, 'Joe', 'Black', 'Public Relations', {'street': 'Main St. 111', 'city': 'Neverland'});
+let student1 = new Student(11111111, 'Joe', 'Black', 'Public Relations', {'street': 'Main St. 111', 'city': 'Neverland'});
 
 console.log(student1);	
 
-var student2 = new Student(10101010, 'Emma', 'Taylor', 'Computer Science', {'street' : 'Great Av. 101', 'city' : 'Everland'});
+let student2 = new Student(10101010, 'Emma', 'Taylor', 'Computer Science', {'street' : 'Great Av. 101', 'city' : 'Everland'});
 
 console.log(student2);		
 
@@ -85,7 +85,7 @@ function Tutor(...args){ //spread operator to get the arguments we are passing w
 	Student.apply(this, args)   //aplly the previous constructor to a new constructor, binding the context
 }                               //of 'this' to the new object. apply() when we have an array as argument
 
-var tutor = new Tutor(10101010, 'John', 'Nash');
+let tutor = new Tutor(10101010, 'John', 'Nash');
 
 tutor.getFullName(); //why this doensn't work?
 
