@@ -18,9 +18,6 @@ class Person {
 			console.log('Rejected!');
 		}
 	}
-	static transformPerson(){
-		return new Person(('transformed' + value))
-	}
 }
 
 let person = new Person('Nico');
