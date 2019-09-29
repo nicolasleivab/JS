@@ -43,8 +43,8 @@ This repository contains simple yet meaningful excercises to get a better unders
    6. [Polymorphism](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/5.Objects/Polymorphism.js)
    7. [Getters & Setters](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/5.Objects/Getters_%26_Setters.js)
 #### 6. Bugs and Errors
-   61. Strict Mode
-   2. Testing
+   61. [Strict Mode](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/6.Bugs%20and%20Errors/Strict_Mode.js)
+   2. [Testing](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/6.Bugs%20and%20Errors/Testing.js)
    3. Debugging
    4. Error Propagation
    5. Exceptions
