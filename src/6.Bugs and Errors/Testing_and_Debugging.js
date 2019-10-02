@@ -12,28 +12,14 @@ function test(label, body) {
 }
 
 /*
-The label should contain a message with the expected result.
-For this excercise, a simple text generator function will be tested
+The label should contain a message with the expected result
+For this excercise, toUpperCase() built-in function will be tested
 as an example.
 */
 
-function textGenerator(name, age) {
-    return (`${name} is ${age} years old`);
-}
-
-test("should output name and age", () => {
-    return textGenerator('Froncio', 33) == "Froncio is 33 years old";
+test("", () => {
+    return == ;
 })
-
-test ("should output default text", () => {
-    return textGenerator('','') == " is  years old";
-})
-
-
-
-/* Debugging */
-
-
 
 
 
