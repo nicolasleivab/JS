@@ -53,7 +53,7 @@ var dividend = 21;
 var numbers = [2, 3, 6, 7, 9, 11, 21];
 var i;
 
-for (idx = 0; i < numbers.length; i++) {
+for (i = 0; i < numbers.length; i++) {
   var factor;
   var divisor = numbers[i];
 

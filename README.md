@@ -45,8 +45,7 @@ This repository contains simple yet meaningful excercises to get a better unders
 #### 6. Bugs and Errors
    61. [Strict Mode](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/6.Bugs%20and%20Errors/Strict_Mode.js)
    2. [Testing and Debugging](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/6.Bugs%20and%20Errors/Testing_and_Debugging.js)
-   3. [Error Propagation](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/6.Bugs%20and%20Errors/Error_Propagation.js)
-   4. [Exceptions](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/6.Bugs%20and%20Errors/Exceptions.js)
+   3. [Exceptions](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/6.Bugs%20and%20Errors/Exceptions.js)
 #### 7. Regular Expressions
    71. Testing for Matches
    2. Patterns
