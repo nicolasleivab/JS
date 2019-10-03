@@ -37,3 +37,49 @@ You can find a beginners guide to npm here: https://www.sitepoint.com/beginners-
 
 
 /* Improvised Modules */
+
+/*
+Before 2015, JavaScript didn't have a built-in module system. Yet people had been building large systems
+for more than a decade so they needed modules anyways and they designed them on top of the language.
+For this matter, you can use functions to create local scopes and objects to represent module interfaces.
+Two easy ways for creating modules in ES5 are presented
+*/
+
+//IIFE 
+
+(function(){
+    var private = 'test'
+    console.log(private);
+  })()
+
+/*
+As presented in the functions section, IIFEs allows us to encapsulate code (often complex) inside the function 
+and define variables that don't interfere with the global scope. Try calling the var private after the IIFE.
+This is how most of the libraries were made.
+However, IIFEs don't provide a mechanism for dependancy management.
+*/
+
+
+//Revealing Module pattern
+
+// Expose module as global variable
+var module = function(){
+
+    // Inner logic
+    function defineVar(){
+      var private = 'test'
+      console.log(private);
+    }
+  
+    // Expose API
+    return {
+      defineVar: defineVar
+    }
+  }()
+
+
+//Similar to an IIFE but we assign the return value to a variable
+
+module.defineVar(); //we access the public API as we do when calling methods
+
+//As with IIFEs this way doesn't provide a mechanism for dependancy management.

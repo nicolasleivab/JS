@@ -55,7 +55,7 @@ This repository contains simple yet meaningful excercises to get a better unders
    6. Search()
    7. Parsing other Files
 #### 8. Modules
-   81. Modules and Packages
+   81. [Modules and Packages](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/8.Modules/Modules_and_Packages.js)
    2. CommonJS
    3. [ECMAScript Modules](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/tree/master/src/8.Modules/ECMAScript_Modules)
    4. Module Design
