@@ -55,11 +55,10 @@ This repository contains simple yet meaningful excercises to get a better unders
    6. Search()
    7. Parsing other Files
 #### 8. Modules
-   81. Building Blocks
-   2. Packages
-   3. ECMAScript Modules
-   4. Building and Bundling
-   5. Module Design
+   81. Modules and Packages
+   2. CommonJS
+   3. [ECMAScript Modules](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/tree/master/src/8.Modules/ECMAScript_Modules)
+   4. Module Design
 #### 9. Asynchronous Programming
    91. Callbacks
    2. Promises

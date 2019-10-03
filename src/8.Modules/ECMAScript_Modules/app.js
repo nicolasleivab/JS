@@ -1,4 +1,4 @@
-/* Import & Export Syntax*/
+/* ECMASCript Modules*/
 
 /*
 Important: Remember that Chrome does not support localhost for CORS requests 
@@ -6,8 +6,21 @@ Important: Remember that Chrome does not support localhost for CORS requests
 There are several ways to find a workaround, some of them explained here:
 https://stackoverflow.com/questions/10883211/deadly-cors-when-http-localhost-is-the-origin
 Anyways, starting a http.server in the file with python (python -m http.server) will
-do the trick.
+do the trick (or any way of preference)
 */
+
+/*
+CommonJS modules notation can be slightly awkward, ex: things you add to export are not avialable 
+in the local scope, require is a normal function call taking any kind of argument (not a string literal).
+This can make a bit hard to determine the dependencies of a module whithout running its code.
+This is why the JavaScript standard from 2015 introduces its own module system.
+The differences are in the details, the notation is now integrated in to the language.
+Instead of calling a function to access a dependency, you use a special import keyword (and export).
+Whenever you import from another module, you import the binding and not the value, which means an exporting
+module may change the value of the binding at any time, and the modules that import it will see its new
+value.
+*/
+
 
 import {keyValue, test} from './external.js';
 
