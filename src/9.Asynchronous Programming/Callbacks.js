@@ -27,3 +27,31 @@ https://dev.to/steelvoltage/if-javascript-is-single-threaded-how-is-it-asynchron
 
 
 /* Callbacks */
+
+/*
+In simple words, a callback is a function that is to be executed after another function has finished.
+The action is started, and when it finishes, the callback function is called with the result.
+So, why do we need callbacks?
+Imagine you have a function that fetched data from a server and then you have a bunch of other functions that
+will use that data as an input. For obvious reasons we need the data fetch function to be executed in the first place.
+Since such functions can have larger execution times, there's no certainity that the functions will execute in
+the right order, generating an error as the argument for the following functions will be missing.
+Callbacks are a way to make sure certain code doesn’t execute until other code has already finished execution.
+*/
+
+function completeTask(task, callback){ //callback function defined as second argument
+    this.task = task;
+    console.log(`${task} in progress...`);
+    callback();
+}
+
+completeTask('First task', function(){   //callback function can also be defined elsewhere and be called later
+    console.log(`${this.task} finished!`)
+});
+
+//This way we make sure of the execution order we want
+
+//A real case example is presented in the coming lectures
+
+
+
