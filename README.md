@@ -56,15 +56,14 @@ This repository contains simple yet meaningful excercises to get a better unders
    7. Parsing other Files
 #### 8. Modules
    81. [Modules and Packages](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/8.Modules/Modules_and_Packages.js)
-   2. CommonJS
+   2. [CommonJS](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/tree/master/src/8.Modules/CommonJS)
    3. [ECMAScript Modules](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/tree/master/src/8.Modules/ECMAScript_Modules)
-   4. Module Design
 #### 9. Asynchronous Programming
-   91. Callbacks
+   91. [Callbacks](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/9.Asynchronous%20Programming/Callbacks.js)
    2. Promises
-   3. Promise Chaining
+   3. Collections of Promises
    4. Async Functions
-   5. Asynchronous Bugs
+   5. The Event Loop
 <br><br>
 
 #### References
