@@ -60,8 +60,8 @@ This repository contains simple yet meaningful excercises to get a better unders
    3. [ECMAScript Modules](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/tree/master/src/8.Modules/ECMAScript_Modules)
 #### 9. Asynchronous Programming
    91. [Callbacks](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/9.Asynchronous%20Programming/Callbacks.js)
-   2. Promises
-   3. Collections of Promises
+   2. [Promises](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/9.Asynchronous%20Programming/Promises.js)
+   3. Promise Chaining
    4. Async Functions
    5. The Event Loop
 <br><br>
