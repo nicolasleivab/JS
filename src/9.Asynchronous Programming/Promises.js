@@ -47,3 +47,25 @@ The immutability of a settled promise is an important feature.
 
 /* Failures */
 
+/*
+One of the problems the callback style of asynchronous programming is that failures are hard to be properly
+reported to the callbacks.
+The typical convention is that the first argument to the calback is for the failure report and the second for
+the returned value in a succesful situation. Such callback functions must always check wether they received an
+exception and make sure that any problems they cause, including exceptions thrown by functions they call, are 
+caught and given to the right function.
+Promises make this easier since they can be either resolved or rejected. Much like resolving a promise provides
+a value, rejecing one also returns one (reason of rejection). There's a Promise.reject function that creates
+a new, immediately rejected promise.
+Promises have a catch method that registers a handler to be called when the promise is rejected, similar to how
+'then' handlers handle normal situation
+*/
+
+let wait2 = new Promise(function(resolve, reject) {
+    setTimeout(() => reject(new Error("Something went wrong!")), 1000); //passing an Error object.
+});
+
+promise.then(
+    result => alert(result), //doesn't run
+    error => alert(error) //shows error
+);
