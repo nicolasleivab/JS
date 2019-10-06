@@ -8,7 +8,7 @@ When a handler returns a value, it becomes the result of that promise, so the ne
 
 let value; //create global variable
 
-let promise1 = new Promise(function(resolve, reject) {
+new Promise(function(resolve, reject) {
 
     setTimeout(() => resolve('3'), 1000); //resolved in 1000 milliseconds
     

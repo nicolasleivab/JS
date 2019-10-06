@@ -30,5 +30,24 @@ asyncFunction2().then(alert); // string
 
 /* Await */
 
+/*
+The keyword await makes JavaScript wait for a promise to be settled. It can only be used inside an Async
+block (it won't work if used in regular functions).
+*/
+
+async function asyncFunction3() {
+
+    let promise = new Promise((resolve, reject) => {
+      setTimeout(() => resolve("resolved!"), 500)
+    });
+  
+    let result = await promise; //wait until the promise settles
+
+    alert(result); 
+}
+  
+asyncFunction3();
+
+
 
 /* Error handling */
