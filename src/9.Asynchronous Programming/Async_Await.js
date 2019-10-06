@@ -51,3 +51,31 @@ asyncFunction3();
 
 
 /* Error handling */
+
+//When a promise resolves, await promise returns the result. In case of a rejection it throws an error:
+
+async function asyncFunction4() {
+    await Promise.reject(new Error("Something went wrong"));
+  }
+
+/* is the same as this:
+async function asyncFunction4() {
+  throw new Error("Something went wrong");
+}
+*/
+
+/*
+In situations where the promise may some tome before it rejects, we can use the try and catch method
+in the same way as a regular throw:
+*/
+
+async function asyncFunction5() {
+
+    try {
+      let response = await fetch('http://non-existent');
+    } catch(err) {
+      alert(err); // alert error (Failer to fetch)
+    }
+  }
+  
+asyncFunction5();
