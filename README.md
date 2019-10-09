@@ -63,7 +63,7 @@ This repository contains simple yet meaningful excercises to get a better unders
    2. [Promises](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/9.Asynchronous%20Programming/Promises.js)
    3. [Promise Chaining](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/9.Asynchronous%20Programming/Promise_Chaining.js)
    4. [Async/Await](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/9.Asynchronous%20Programming/Async_Await.js)
-   5. The Event Loop
+   5. [The Event Loop](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/9.Asynchronous%20Programming/The_event_loop.js)
 <br><br>
 
 #### References
