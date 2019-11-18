@@ -47,13 +47,11 @@ This repository contains simple yet meaningful excercises to get a better unders
    2. [Testing and Debugging](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/6.Bugs%20and%20Errors/Testing_and_Debugging.js)
    3. [Exceptions](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/6.Bugs%20and%20Errors/Exceptions.js)
 #### 7. Regular Expressions
-   71. Testing for Matches
-   2. Patterns
-   3. Grouping
-   4. Backtracking
-   5. Replace()
-   6. Search()
-   7. Parsing other Files
+   71. [Testing for Matches](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/6.Regular%20Expressions/Testing_for_Matches.js)
+   2. [Patterns, Matches and Groups](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/6.Regular%20Expressions/Patterns.js)
+   3. [Backtracking](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/6.Regular%20Expressions/Backtracking.js)
+   4. [Replace()](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/6.Regular%20Expressions/Replace.js)
+   5. [Search()](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/6.Regular%20Expressions/Search.js)
 #### 8. Modules
    81. [Modules and Packages](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/blob/master/src/8.Modules/Modules_and_Packages.js)
    2. [CommonJS](https://github.com/nicolasleivab/JavaScript-Under-the-Hood/tree/master/src/8.Modules/CommonJS)
